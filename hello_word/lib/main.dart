@@ -17,8 +17,8 @@ void main(){
         // MainAxisAlignment = centraliza no eixo central, altura
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          Text('Wello world Dart Yago!'),
-          Text('Bora desenvolver Yago')
+          Text('Wello world Dart Yago!', textAlign: TextAlign.center,),
+          Text('Bora desenvolver Yago', textAlign: TextAlign.center,)
         ],
       ),
     )
