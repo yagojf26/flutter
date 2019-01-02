@@ -13,7 +13,7 @@ import 'package:myapp/pages/School.dart';
   class _TemplateState extends State<Template> {
     var homePage = new HomePage();
     var schoolPage = new SchoolPage();
-    var _selectedPage= 1;
+    var _selectedPage= 0;
     //adiciona um metodo para trazer as paginas
     var _pages;
 
