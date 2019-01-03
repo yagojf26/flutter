@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class SchoolPage extends StatefulWidget {
   @override
@@ -19,7 +20,8 @@ class _SchoolPageState extends State<SchoolPage> {
            textAlign: TextAlign.center,),
            onPressed: (){
              //faz uma ação
-             
+             //launch('htts://schoolofnet.com');
+             launch('https://www.schoolofnet.com');
            },
         )
 
