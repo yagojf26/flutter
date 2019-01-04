@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-
 import 'template.dart';
+
   void main() {
     //é executado o que está dentro do runApp
     runApp(new MyApp());

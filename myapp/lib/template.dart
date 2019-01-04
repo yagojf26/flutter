@@ -15,6 +15,7 @@ import 'package:url_launcher/url_launcher.dart';
     var homePage = new HomePage();
     var schoolPage = new SchoolPage();
     var _selectedPage= 0;
+    
     //adiciona um metodo para trazer as paginas
     var _pages;
 
