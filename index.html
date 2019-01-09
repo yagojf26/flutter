@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    
+        var carga
+        var repeticao
+        var limite
+        var limite_100
+
+
+        limite = carga * 1,32
+        limite = limite_100
+
+        switch (limite == 1) {
+            case limite == 1:
+                limite = carga * 1,00
+                limite = limite_100
+                break;
+            case limite - 1:
+                limite = carga 
+                limite = limite_90
+
+            default:
+
+                break;
+        }
+        switch (limite ==2) {
+            case limite ==2:
+                limite = carga * 1,07
+                limite = limite_100
+                break;
+            case limite = limite -1:
+                 limite = carga 
+                 limite = limite_90
+            default:
+                break;
+        }
+                switch (limite ==3) {
+            case limite == 3:
+                limite = carga * 1,10
+                limite = limite_100 
+            break;        
+            case limite ==2:
+                limite = carga * 1,07
+                limite = limite_90
+                break;
+            case limite = limite -1:
+                 limite = carga 
+                 limite = limite_80
+            default:
+                break;        
+        }
+        switch (limite ==4) {
+            case limite ==4:
+                limite = carga * 1,13
+                limite = limite_100 
+            case limite == 3:
+                limite = carga * 1,10
+                limite = limite_90
+            break;        
+            case limite ==2:
+                limite = carga * 1,07
+                limite = limite_80
+                break;
+            case limite = limite -1:
+                 limite = carga 
+                 limite = limite_70
+            default:
+                break;        
+        }    
+
+        1-1,00
+2-1,07
+3-1,10
+4-1,13
+5-1,16
+6-1,20
+7-1,23
+8-1,27
+9-1,32
+10-1,36
+        =ESCOLHER(
+            B4=10;(C4*1,36);
+            ESCOLHER(B4=9;(C4*1,32);
+            ESCOLHER(B4=8;(C4*1,27);
+            ESCOLHER(B4=7;(C4*1,23);
+            ESCOLHER(B4=6;(C4*1,20);
+            ESCOLHER(B4=5;(C4*1,16);
+            ESCOLHER(B4=4;(C4*1,13);
+            ESCOLHER(B4=3;(C4*1,10);
+            ESCOLHER(B4=2;(C4*1,07);
+            ESCOLHER(B4=1;(C4*1,00);
+        ))))))))))
+
+       
+
+        =SE(B4=10;(C4*1,36);
+        SE(B4=9;(C4*1,32);
+        SE(B4=8;(C4*1,27);
+        SE(B4=7;(C4*1,23);
+        SE(B4=6;(C4*1,20);
+        SE(B4=5;(C4*1,16);
+        SE(B4=4;(C4*1,13);
+        SE(B4=3;(C4*1,10);
+        SE(B4=2;(C4*1,07);
+        SE(B4=1;(C4*1,00);"VALOR INVALIDO"
+        )))))))))))
+
+       
+        
+    </script>
+</body>
+</html>
